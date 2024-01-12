@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Btn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Find Max Between Two / Three Numbers in Java"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Fibonacci Series in Java"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Prime Number Between 1 to 100 in Java"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Armstrong Number in Java"
+                    android:textSize="16dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Check a Number is Prime or Not"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Check a Number is Even Or Odd"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Find Reverse of a Number "
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Palindrome Number Program in Java"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Find Sum of Digits of a Number "
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Find Factorial of a Number"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Multiplication Table of a Given Number in Java"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Java Program to Find Sum of First N Natural Numbers"
+                    android:textSize="16sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/Btn13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#7de09c"
+                    android:text="Simple calculator program in java"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="20dp">
+
+
+                </Button>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</FrameLayout>

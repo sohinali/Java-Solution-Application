@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">Java Solution</string>
+    <string name="multiplication" translatable="false">
+
+        import java.util.*;\n\n
+
+class Demo{\n
+	\npublic static void main (String [] args){
+\n
+	\nSystem.out.println(\"enter the number\");\n
+	\nScanner sc = new Scanner(System.in);
+	\nint a=sc.nextInt();
+\n
+\n		{
+\n  		for(int i=1; i&lt;=10;i++){ \n
+\n			System.out.println(a+\"*\"+i+\"=\"+ a*i);\n
+
+
+
+		}\n
+\n
+
+
+\n
+	}
+\n
+
+
+
+}
+
+	</string>
+    <string name="b1">
+		import java.util.Scanner;\n
+class Demo{\n
+public static void main(String[] args){
+        \n int a,b,c ;\n
+\n Scanner sc = new Scanner(System.in);
+\n        System.out.println(\"enter the first number\");
+  \n      a= sc.nextInt();
+    \n    System.out.println(\"enter the second number\");
+      \n  b= sc.nextInt();
+        \nSystem.out.println(\"enter the third number\");
+        \nc= sc.nextInt();
+        \nif(a>b &amp;&amp; a>c){
+          \n  System.out.println(\"max number is :\" + a );\n
+        \n }else if(b>a &amp;&amp; b>c){\n
+           \n System.out.println(\"max number is :\" + b);\n
+        }else{\n
+            System.out.println(\"max number is:\" + c);
+        }\n
+\n
+\n
+\n
+  \n  }\n
+}\n
+	</string>
+    <string name="b2">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int x = 0;\n
+        int y =1;\n
+        int z=0, n;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the first number\");\n
+        n = sc.nextInt();\n
+        while(z &lt;=n){ \n
+            System.out.println(z);\n
+            x=y;\n
+            y=z;\n
+            z=x+y;\n
+        }\n
+    }\n
+}\n
+    </string>
+    <string name="b3">
+        class Demo{\n
+ public static void main(String []args){\n
+    int i, count,j ;\n
+    for(i=1;i&lt;=100;i++){\n
+        count=0;\n
+        for(j=i;j&lt;=i; j++){\n
+\n
+            if(i/j==0)\n
+                count++;\n
+        }if(count==2){\n
+        \n
+            System.out.println(i);\n
+        }\n
+\n
+\n
+    }\n
+
+\n
+\n
+\n
+ }
+
+
+
+}
+    </string>
+    <string name="b4">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+   public static void main(String[] args){ \n
+        int n,z,count=0, digit, pro, i,sum=0;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number\");\n
+        n=sc.nextInt();\n
+        z=n;\n
+        while(z>0){\n
+            count = count+1;\n
+            z=z/10;\n
+        }\n
+        System.out.println(\"number of digit :\"+ count);\n
+     z=n; \n
+     while(z>0){ \n
+        digit=z/10; \n
+        pro = 1;\n
+        for(i=1;i&lt;=count;i++){ \n
+            pro = pro*digit;\n
+            sum = sum+pro;\n
+            z=z/10;\n
+        }if (sum==n){\n
+            System.out.println(\"Armstrong\");\n
+        }else{\n
+            System.out.println(\"Not Armstrong \");\n
+        }\n
+     }\n
+        \n
+    }\n
+}\n
+    </string>
+    <string name="b5">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int n, count =0, i;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number\");\n
+        n= sc.nextInt();\n
+        i=1;\n
+        while(i&gt;=n){\n
+            if(n/i==0){\n
+                count=count+1;\n
+                i=i+1;\n
+            }if(count==2){\n
+                System.out.println(\"prime\");\n
+            }else{\n
+                System.out.println(\"not prime\");\n
+            }\n
+        }\n
+    }\n
+}\n
+    </string>
+    <string name="b6">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int n;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number\");\n
+        n= sc.nextInt();\n
+            if(n%2==0){\n
+                System.out.println(\"even\");\n
+            }else{\n
+                System.out.println(\"odd\");\n
+            }\n
+        }\n
+    }\n
+
+        
+        
+        
+        
+    </string>
+    <string name="B7">
+        import java.util.Scanner;\n
+        class Demo{\n
+    public static void main(String[] args){\n
+        int n, rev=0;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number to find reverse\");\n
+        n= sc.nextInt();\n
+        while(n>0){\n
+            rev=(rev*10)+n%10;\n
+            n=n/10;\n
+        }\n
+        \n
+        System.out.println(\"the reverse is:\"+ rev);\n
+                \n
+    \n
+    \n
+    \n
+    }\n
+}\n
+    </string>
+    <string name="B8">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int n, rev=0,z ;\n
+
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number\");\n
+        n= sc.nextInt();\n
+        z=n;\n
+        while(n>0){\n
+            rev=(rev*10)+n%10;\n
+            n=n/10;\n
+        }\n
+        if(rev==z){\n
+        System.out.println(\"palindrome\");\n
+        }else{\n
+        System.out.println(\"not palindrome\");\n
+            \n
+        }\n
+
+
+
+
+    }\n
+}\n
+    </string>
+    <string name="B9">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int n,sum=0 ;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number\");\n
+        n= sc.nextInt();\n
+        while(n>0){\n
+            sum= sum + n %10;\n
+            n=n/10 ;\n
+        }\n
+        System.out.println(\"the total sum of digit is:\"+ sum );\n
+        \n
+    }\n
+}
+    </string>
+    <string name="B10">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+    public static void main(String[] args){\n
+        int n,fact=1 ;\n
+
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the number to find factorial\");\n
+        n= sc.nextInt();\n
+        while(n>0){\n
+            fact =fact*n;\n
+            n=n-1;\n
+        }\n
+        System.out.println(\"Total factorial is :\"+ fact);\n
+    }}\n
+
+    </string>
+
+    <string name="B11">
+        import java.util.Scanner;\n
+class Demo{\n
+
+    public static void main(String[] args){\n
+        int n,i,add=0 ;\n
+        \n
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the value of N\");\n
+        n= sc.nextInt();\n
+        i=1;\n
+        while(i&gt;=n){\n
+            add =add+1;\n
+            i=i+1;\n
+        }\n
+        System.out.println(\"addition is :\"+ add);\n
+    }}\n
+
+    </string>
+    <string name="B12">
+        import java.util.Scanner;\n
+class Demo{\n
+\n
+  \n  public static void main(String[] args){
+        int a,b,c ;\n
+
+        Scanner sc = new Scanner(System.in);\n
+        System.out.println(\"enter the first number\");\n
+        a= sc.nextInt();\n
+        System.out.println(\"enter the second number\");\n
+        b= sc.nextInt();\n
+         System.out.println(\"enter your choice  -->1 Add  -->2 Subtract -->3 Multiply  -->4 Divide  -->5 Modulo\");\n
+        c= sc.nextInt();\n
+        if(c==1){\n
+            System.out.println("Addition is:"+(a+b));\n
+            \n
+        }else if(c==2){\n
+            System.out.println(\"Subtraction is:\"+(a-b));\n
+        }else if(c==3){\n
+            System.out.println(\"Multiplication is:\"+(a*b));\n
+        }else  if(c==4){\n
+            System.out.println(\"Divide is:\"+(a/b));\n
+        }else  if(c==5){\n
+            System.out.println(\"modulo is:\"+(a%b));\n
+        }else{\n
+            System.out.println(\"invalid choice\");\n
+        }\n
+
+
+    \n
+
+
+
+
+    }}\n
+    </string>
+
+    <string name="Aj13">
+\n\n\n\n\n\n
+Email id \n
+sohinali786@gmail.com \n
+\n\n\n
+Linkdln \n
+https://www.linkedin.com/in/sohin-ali-528340230
+\n\n\n\n\n\n
+
+    </string>
+
+<string name="Aj14">
+    \n\n
+About Us
+\n\n
+Welcome to the Java Tutorials app! We are passionate about helping you learn and master the Java programming language. Whether you\'re a beginner looking to take your first steps into the world of Java or an experienced developer seeking to enhance your skills, our app is designed to cater to your needs.
+\n\n\n\n\n
+Our Mission
+\n\n
+Our mission is to make Java programming accessible and enjoyable for everyone. We believe that learning should be engaging and practical, which is why we have created a user-friendly platform packed with interactive tutorials, hands-on coding exercises, and comprehensive resources.
+</string>
+
+    <string name="open">
+        open nevigation drawer
+    </string>
+
+    <string name="close">
+        close nevigation drawer
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
